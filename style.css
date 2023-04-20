@@ -27,7 +27,7 @@ body {
 .container {
     display: grid;
     gap: 2em;
-    margin:6em 1em;
+    margin:10em 1em 1em 1em;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
 }
@@ -132,7 +132,7 @@ nav a:focus {
     font-size: 0.9rem;
     color: var(--Pale-Blue);
 }
-.box-section h3 {
+.box-section h2 {
     font-weight: 300;
     font-size: 0.9rem;
 }
