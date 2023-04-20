@@ -20,6 +20,8 @@ body {
     background-color: var(--Very-dark-blue);
     display: grid;
     place-content: center;
+    place-items:center;
+    min-height:100vh;
     font-family: 'Rubik', sans-serif;
     max-width: 1440px;
     margin: auto;
@@ -27,7 +29,6 @@ body {
 .container {
     display: grid;
     gap: 2em;
-    margin:10em 1em 1em 1em;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
 }
